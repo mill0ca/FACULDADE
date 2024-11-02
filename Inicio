@@ -1,0 +1,88 @@
+// html
+
+<!-- primeira pagina -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="interface">
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <a href="index.html">Inicio</a>
+                        <a href="hobbies.html">Hobbies</a>
+                        <a href="cadastro.html">Cadastro</a>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+    </header>
+    <main>
+        <div class="grupo" id="participante1">   
+
+        <div>
+
+
+        
+
+    </main>
+
+
+
+   
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+// css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+body {
+}
+main {
+
+    padding: 30px 0;
+    height: calc(100vh-60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    height: 60px;
+    background: rgb(255, 197, 233);
+}
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav.link{
+    color: rgb(255, 255, 255);
+}
+footer {
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 20px;
+}
+
