@@ -1,0 +1,57 @@
+//  html
+<!-- segunda pag (com os cards) -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylehobbies.css" />
+</head>
+<body>
+<header>
+    <a href="index.html" class="cabeca">inicio</a>
+    <a href="hobbies.html" class="cabeca">Hobbies</a>
+    <a href="cadastro.html" class="cabeca">Cadastro</a>
+</body>header>
+
+   <main>
+    <!-- topo da tela, apenas um título -->
+    <a href="" class="topo">Galeria de Hobbies</a>
+   </main>
+   <!-- aqui vai a tabela de cards
+    temos que recoher fotos do grupinho :) -->
+    <table class="hobbies">
+        <tr>
+            <td>participante 1</td>
+            <td>participante 2</td>
+            <td>participante 3</td>
+        </tr>
+        <tr>
+            <td>participante 4</td>
+            <td>participante 5</td>
+            <td>participante 6</td>  
+        </tr>
+    </table>
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+// css
+    /* parte dos hobbies */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+  }
+  header{
+    height: 60px;
+    background-color: rgb(255,197,233)
+  }
+.hobbies{
+    
+}
